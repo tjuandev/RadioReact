@@ -1,0 +1,20 @@
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(56, 55, 55);
+}
