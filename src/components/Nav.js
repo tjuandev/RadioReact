@@ -6,7 +6,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 const Nav = ({ isLibraryOpen, setIsLibraryOpen }) => {
   return (
     <nav>
-      <h1>Waves</h1>
+      <h1>ReactMusic</h1>
       <button onClick={() => setIsLibraryOpen(!isLibraryOpen)}>
         Library
         <FontAwesomeIcon icon={faMusic} />
