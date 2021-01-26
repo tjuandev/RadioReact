@@ -4,16 +4,6 @@ import stevePerry from "./music/st.mp3";
 function chillHop() {
   return [
     {
-      name: "Far From Home",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ad7fc4dda66ba986466fd2b1c416b0b12411ee28-1024x1024.jpg",
-      artist: "toonorth",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=11735",
-      color: ["#edb073", "#3b4653"],
-      id: uuid(),
-      active: true,
-    },
-    {
       name: "Witch Hat",
       cover:
         "https://chillhop.com/wp-content/uploads/2020/09/c209a7df7b9bc133dfff73ce86ebc3c57c2b73dd-1024x1024.jpg",
@@ -22,6 +12,16 @@ function chillHop() {
       color: ["#58B0C8", "#2B2B47"],
       id: uuid(),
       active: false,
+    },
+    {
+      name: "Far From Home",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/ad7fc4dda66ba986466fd2b1c416b0b12411ee28-1024x1024.jpg",
+      artist: "toonorth",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=11735",
+      color: ["#edb073", "#3b4653"],
+      id: uuid(),
+      active: true,
     },
     {
       name: "Lax License",
