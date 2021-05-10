@@ -1,5 +1,3 @@
-import React, { useEffect } from "react";
-
 const LibrarySong = ({ song, setCurrentSong, setIsPlaying, audio, songs }) => {
   const songSelectHandler = () => {
     setCurrentSong(song);

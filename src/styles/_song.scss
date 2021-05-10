@@ -18,6 +18,27 @@
   }
 }
 
+.rotate {
+  animation-name: rotateImage;
+  animation-timing-function: linear;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.notRotate {
+  animation-play-state: paused;
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media (max-width: 575px) {
   .song-container {
     min-height: 60vh;

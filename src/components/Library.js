@@ -1,4 +1,3 @@
-import React from "react";
 import LibrarySong from "./LibrarySong";
 
 const Library = ({
@@ -23,7 +22,7 @@ const Library = ({
 
   return (
     <div className={`library ${isLibraryOpen ? "library-open" : ""}`}>
-      <h2>Library</h2>
+      <h2>Músicas</h2>
       <div className="library-songs">{showSongs}</div>
     </div>
   );
