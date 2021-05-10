@@ -14,4 +14,4 @@ Music Player feito para aprender sobre o uso de áudio com o Javascript em si, e
 
 ### Acerca da Customização
 
-O sistema é livre para as customizações e quem quiser adicionar em relação as músicas, basta alterar o arquivo utils.js seguindo o Schema proposto.
+O sistema é livre para as customizações e quem quiser adicionar em relação as músicas, basta alterar o arquivo utils.js seguindo o Schema proposto e me mandar um Pull Request.
