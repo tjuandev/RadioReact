@@ -1,6 +1,6 @@
 import { v4 as uuid } from "uuid";
 
-import StevePerry from "./music/steveP.mp3";
+import tevePerry from "./music/steveP.mp3";
 import BillieJean from "./music/mj.mp3";
 import DontStop from "./music/q.mp3";
 import EveryBreath from "./music/evbyt.mp3";
@@ -40,7 +40,7 @@ function chillHop() {
       cover:
         "https://e.snmc.io/i/600/w/5ef90aa8fe661471fb735edf7d459765/1760055",
       artist: "Steve Perry",
-      audio: StevePerry,
+      audio: tevePerry,
       color: ["#C11F3A", "#4F3925"],
       id: uuid(),
       active: false,

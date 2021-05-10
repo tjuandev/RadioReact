@@ -47,6 +47,14 @@ input[type="range"] {
     border-radius: 2rem;
     background-color: rgb(204, 204, 204);
   }
+
+  &::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 30px;
+    width: 10px;
+    border-radius: 2rem;
+    background-color: rgb(204, 204, 204);
+  }
 }
 
 .track {
