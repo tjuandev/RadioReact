@@ -9,7 +9,7 @@ function chillHop() {
   return [
     {
       name: "Billie Jean",
-      cover: "https://pbs.twimg.com/media/DXk9toEX0AAV4wh.jpg",
+      cover: "https://upload.wikimedia.org/wikipedia/pt/0/0e/Billie_Jean.jpg",
       artist: "Michael Jackson",
       audio: BillieJean,
       color: ["#EDF0E9", "#2F2D21"],
